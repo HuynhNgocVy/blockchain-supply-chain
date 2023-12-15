@@ -51,7 +51,7 @@ function Table({ setCreateShipmentModal, allShipmentsdata }) {
                   {shipment.destination}
                 </td>
                 <td className='px-6 py-4 whitespace-nowrap'>
-                  {shipment.source} Km
+                  {shipment.source}
                 </td>
                 <td className='px-6 py-4 whitespace-nowrap'>
                   {convertTime(shipment.timestamp)}
